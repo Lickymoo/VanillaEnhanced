@@ -1,0 +1,11 @@
+#LumberJack - Allows players to break entire trees at once
+LumberJack: true
+
+#SlotAssist - Replenishes current item in hand once it has run out
+SlotAssist: true
+
+#UnstripLog - Allows player to right click stripped log to unstrip it
+UnstripLog: true
+
+disabled-items:
+  - "EXAMPLE_ITEM_ID"

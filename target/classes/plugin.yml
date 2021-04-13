@@ -5,3 +5,9 @@ author: Buby
 api-version: 1.16
 main: me.buby.vanillaenhanced.VanillaEnhanced
 description: Vanilla Enhanced
+commands:
+ getitem:
+  description: Get a Vanilla Enhanced item.
+ vanillaenhanced:
+  aliases: ve
+  description: Vanilla Enhanced main command.

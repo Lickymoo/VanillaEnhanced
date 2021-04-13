@@ -19,7 +19,7 @@ public class GiveItemCommand extends BaseCommand{
 	}
 	
 	@Default
-	public void execute(final CommandSender sender, final String id) {
+	public void execute(final CommandSender sender, final String id, final int amount) {
 		if(!(sender instanceof Player)) return;
 		Player player = (Player)sender;
 		
@@ -28,12 +28,17 @@ public class GiveItemCommand extends BaseCommand{
 			player.sendMessage("Could not find item with id: " + id);
 			return;
 		}else {
-			player.getInventory().addItem(handler.getItemStack());
+			player.getInventory().addItem(handler.getItemStack(amount));
 			return;
 		}
 		
 	}
 	
+	@Default
+	public void execute(final CommandSender sender, final String id) {
+		execute(sender, id, 1);
+		
+	}
 }
 
 
