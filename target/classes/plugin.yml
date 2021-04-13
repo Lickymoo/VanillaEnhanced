@@ -1,0 +1,7 @@
+depend: [ProtocolLib]
+name: VanillaEnhanced
+version: v1
+author: Buby
+api-version: 1.16
+main: me.buby.vanillaenhanced.VanillaEnhanced
+description: Vanilla Enhanced

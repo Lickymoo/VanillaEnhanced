@@ -1,0 +1,14 @@
+me\buby\vanillaenhanced\customitems\impl\BigBucket$BucketInstance.class
+me\buby\vanillaenhanced\customitems\impl\VeryUsefulStick.class
+me\buby\vanillaenhanced\listeners\lumber\LumberListener.class
+me\buby\vanillaenhanced\command\impl\GiveItemCommand.class
+me\buby\vanillaenhanced\customitems\impl\Satchel$SatchelInventory.class
+me\buby\vanillaenhanced\customitems\impl\BigBucket.class
+me\buby\vanillaenhanced\customitems\VanillaEnhancedItemManager.class
+me\buby\vanillaenhanced\listeners\slotassist\SlotAssistListener.class
+me\buby\vanillaenhanced\customitems\impl\Satchel.class
+me\buby\vanillaenhanced\VanillaEnhanced.class
+me\buby\vanillaenhanced\customitems\impl\BigBucket$BucketType.class
+me\buby\vanillaenhanced\inventory\VanillaEnhancedInventoryManager.class
+me\buby\vanillaenhanced\command\CommandManager.class
+me\buby\vanillaenhanced\customitems\impl\BigBucket$1.class
